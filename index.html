@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Rocking Giffs</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css?family=Hanalei+Fill" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/style.css" />
+</head>
+<body background="assets/images/background.jpg">
+                                  <!--The Header across the top of the Page-->
+    <nav class="navbar fixed-top navbar-light" style="background-color: #B22222">
+        <span class="navbar-brand mb-0 h1" style="font-family: 'Hanalei Fill', cursive; font-size: 55px;">Giffing Your Socks Off!</span>
+    </nav>
+                                             <!--Main container-->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                                                 <!-- Buttons and search bar-->
+                <div class="card" style="margin-top: 160px">
+                    <div class="card-header" style="background-color: #808080; font-family: 'Hanalei Fill', cursive;">
+                        Lets Rock and Roll!
+                    </div>
+                    <div class="card-body">
+                        <input class="form-control" id="textInput" type="text" placeholder="Who's your favorite rocker?"> <br>
+                        <a id="search" class="btn btn-secondary">
+                            <i class="fas fa-plus"> Find Your Rock!</i>
+                        </a>
+                        <br> <br>
+                        <span id="buttongroups">
+                        </span>
+                    </div>
+                </div>
+            </div>
+                                     <!--ALl of the Gifs in still form first then, and on click you get the full gif-->
+            <div class="col-md-8" id="GIF">
+                <div class="card" style="margin-top: 160px">
+                    <div class="card-header" style="background-color: #2F4F4F; font-family: 'Hanalei Fill', cursive;"> The Rock gods! </div>
+                    <div class="card-body">
+                        <!--Div area for the returned GIF's-->
+                        <div class="col" id="GIFarea">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+                                                     <!--Linking the javascript-->
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+    <script src="assets/java.js"></script>
+</body>
+
+</html>

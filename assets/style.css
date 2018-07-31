@@ -1,0 +1,28 @@
+.topic {
+    margin: 2%;
+    padding: 1%;
+}
+
+.topic:hover {
+    background-color: #0000;
+}
+
+.gifbox {
+    float: left;
+    width: 270px;
+    height: 300px;
+    max-height: 3000px;
+    margin: 20px 0px 20px 0px;
+    overflow: auto;
+}
+
+.gifbox:nth-child(2n) {
+    float: right;
+    overflow: auto;
+}
+
+p {
+    margin: 0px;
+    font-size: 18px;
+    font-weight: bold;
+}
